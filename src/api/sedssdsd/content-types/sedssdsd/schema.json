@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sedssdsds",
+  "info": {
+    "singularName": "sedssdsd",
+    "pluralName": "sedssdsds",
+    "displayName": "sedssdsd"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ss": {
+      "type": "string"
+    }
+  }
+}
