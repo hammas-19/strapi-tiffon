@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mens_wears",
+  "info": {
+    "singularName": "mens-wear",
+    "pluralName": "mens-wears",
+    "displayName": "mens_wear"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Type": {
+      "type": "string",
+      "required": true
+    },
+    "sizes": {
+      "type": "json",
+      "required": true
+    },
+    "colors": {
+      "type": "json"
+    },
+    "price": {
+      "type": "integer",
+      "required": true
+    },
+    "views": {
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "specs": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
